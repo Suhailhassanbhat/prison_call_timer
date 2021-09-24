@@ -1,0 +1,53 @@
+body {
+    margin:auto;
+    font-family: 'ProximaNova-Light', Georgia, serif;
+}
+#content {
+    height:400px;
+}
+div.timer-body {
+    text-align:center; 
+    border-top: 1px solid #777;
+    border-bottom:1px solid #777;
+    color: grey;
+    padding-top:20px;
+    background-color:black;
+    max-width:100%;
+    color:white;
+    position:relative;
+    font-family: inherit;
+    height:380px;
+}
+
+#time, #cost {
+    font-size:4rem;
+    color:#ffc105;
+    font-weight: bold;
+    font-family: inherit;
+
+}
+.jail-sentence{
+    line-height:2rem;
+    font-size: 18px;
+    margin: 1% 0 0 0;
+    font-family: inherit;
+
+}
+
+#jail-select {
+    font-weight:bold;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 18px;
+    max-width: 350px;
+}
+
+#dollar-sign {
+    font-size:2rem;
+    color:#ffc105;
+}
+
+.clock-ticker {
+    font-family: inherit;
+    font-size: 18px;
+}
